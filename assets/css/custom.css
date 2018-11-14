@@ -151,7 +151,11 @@ main .container,main .container-fluid {
     border-radius:7px;
 }
 
-#topper .col-4 {
+#topper .col-10 {
     font-size:14pt;
     line-height:1.6;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
