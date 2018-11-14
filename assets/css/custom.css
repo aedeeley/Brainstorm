@@ -100,6 +100,7 @@ main .container,main .container-fluid {
     -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.07);
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.07);
     float:left;
+    width:20%;
 }
 
 #services .card-img-top {
@@ -121,6 +122,10 @@ main .container,main .container-fluid {
 
 #services p.card-text {
     font-size:1.05rem !important;
+}
+
+.container-fluid#services {
+    width:95%;
 }
 
 .bluebg {
@@ -158,4 +163,10 @@ main .container,main .container-fluid {
 
 html {
     scroll-behavior: smooth;
+  }
+
+  .nopad {
+      width:60%;
+      padding:0 !important;
+      margin:0 !important;
   }

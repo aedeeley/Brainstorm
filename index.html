@@ -59,7 +59,8 @@
 
           </div>
         </div>
-        <div class="container" id="services">
+        
+        <div class="container-fluid" id="services">
           
         <div class="row mt-5 mb-5 justify-content-center wow fadeInUp">
           <div class="col-6">
@@ -68,8 +69,9 @@
           </div>
         </div>
         <div class="row mt-5 pt-5">
-            <div class="col">
-                <div class="card hvr-grow wow bounceInLeft" style="width: 20rem;" data-wow-delay=".3s">
+            <div class="col nopad">
+                <div class="card-group ml-5 mr-5">
+                <div class="card hvr-grow wow bounceInLeft" data-wow-delay=".3s">
                     <div class="card-img-top"><img src="assets/img/img1.png" alt="img1" /></div>
                     <div class="card-body p-5">
                         <h5 class="card-title">Card title</h5>
@@ -78,7 +80,7 @@
                     </div>
                   </div>
 
-                <div class="card hvr-grow ml-5 wow bounceInLeft" style="width: 20rem;" data-wow-delay=".1s">
+                <div class="card hvr-grow ml-5 wow bounceInLeft" data-wow-delay=".1s">
                     <div class="card-img-top"><img src="assets/img/img2.png" alt="img1" /></div>
                     <div class="card-body p-5">
                         <h5 class="card-title">Card title</h5>
@@ -87,7 +89,7 @@
                     </div>
                   </div>
 
-                  <div class="card hvr-grow ml-5 wow bounceInRight" style="width: 20rem;" data-wow-delay=".2s">
+                  <div class="card hvr-grow ml-5 wow bounceInRight" data-wow-delay=".2s">
                       <div class="card-img-top"><img src="assets/img/img2.png" alt="img1" /></div>
                       <div class="card-body p-5">
                           <h5 class="card-title">Card title</h5>
@@ -95,6 +97,16 @@
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                       </div>
                     </div>
+
+                    <div class="card hvr-grow ml-5 wow bounceInRight" data-wow-delay=".2s">
+                        <div class="card-img-top"><img src="assets/img/img2.png" alt="img1" /></div>
+                        <div class="card-body p-5">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      </div>
 
                   
             </div>
@@ -199,15 +211,15 @@
                   <div class="row">
                       <div class="col-md-6">
                           <div class="form-group">
-                              <label for="form_name">Firstname *</label>
-                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                              <label for="form_name">Name *</label>
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Name is required.">
                               <div class="help-block with-errors"></div>
                           </div>
                       </div>
                       <div class="col-md-6">
                           <div class="form-group">
-                              <label for="form_lastname">Lastname *</label>
-                              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                              <label for="form_phone">Phone *</label>
+                              <input id="form_phone" type="text" name="phone" class="form-control" placeholder="Please enter your phone number *" required="required" data-error="Phone number is required.">
                               <div class="help-block with-errors"></div>
                           </div>
                       </div>
@@ -225,9 +237,9 @@
                               <label for="form_need">Please specify your need *</label>
                               <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
                                   <option value=""></option>
-                                  <option value="Request quotation">Request quotation</option>
-                                  <option value="Request order status">Request order status</option>
-                                  <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                  <option value="Request quote">Request quote</option>
+                                  <option value="Services inquiry">Services inquiry</option>
+                                  <option value="General question">General question</option>
                                   <option value="Other">Other</option>
                               </select>
                               <div class="help-block with-errors"></div>
