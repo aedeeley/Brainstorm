@@ -128,7 +128,7 @@ main .container,main .container-fluid {
     font-size:1.05rem !important;
 }
 
-.container-fluid#services {
+.container-fluid#services,.container-fluid#portfolio {
     width:95%;
 }
 
