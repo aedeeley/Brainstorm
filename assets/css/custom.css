@@ -169,8 +169,22 @@ html {
     scroll-behavior: smooth;
   }
 
-  .nopad {
+.nopad {
       width:60%;
       padding:0 !important;
       margin:0 !important;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width:100%;
+  
+}
+
+
+.card-item {
+    display: inline-block;
   }
+
