@@ -176,8 +176,7 @@ html {
 }
 
 .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: hidden;
     white-space: nowrap;
     width:100%;
   
@@ -188,3 +187,8 @@ html {
     display: inline-block;
   }
 
+
+
+.dragscroll {
+    cursor:grab !important;
+}
