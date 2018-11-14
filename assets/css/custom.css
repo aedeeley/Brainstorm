@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900');
+
+body {
+    background:#f7fbfb;
+    font-size:12pt;
+    color:#140f33;
+    font-family: 'Lato', sans-serif;
+    line-height:1.4;
+    font-weight:300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height:1.1;
+    font-family: 'Lato', sans-serif;
+    font-weight:800;
+    color:#140f33;
+}
+
+header {
+    background:#f7fbfb;
+}
+
+#logo img {
+    margin:10px 0;
+    width:60px;
+    height:auto;
+}
+
+#logo div {
+    float:left;
+    font-family: 'Lato', sans-serif;
+    font-size:28px;
+    font-weight:300;
+    color:#f15a29;
+    margin:10px 0 0 20px;
+}
+
+#logo span {
+    font-weight:600;
+}
+
+nav {
+    font-family: 'Lato', sans-serif;
+    font-size:10pt;
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+.nav-item a {
+    color:rgb(156, 156, 156);
+    text-decoration:none;
+    border-bottom:2px solid transparent;
+}
+
+nav li a:hover {
+    border-bottom:2px solid #f15a29;
+}
+
+nav li a.active {
+    color:#f15a29;
+}
+
+nav li a.active:hover {
+    border:none;
+}
+
+main .container,main .container-fluid {
+    padding:30px 0;
+}
+
+.social {
+    float:right;
+    margin:20px 0 0 0;
+}
+
+.social a {
+    color:rgb(156, 156, 156);
+}
+
+.social a:hover {
+    color:#f15a29;
+}
+
+.upper {
+    font-size:1.8rem;
+}
+
+#services h3 {
+    font-size:1.9rem;
+}
+
+#services p {
+    font-size:1.3rem;
+}
+
+#services .card {
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border:none;
+    -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.07);
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.07);
+    float:left;
+}
+
+#services .card-img-top {
+    -webkit-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+    width:100%;
+    font-size:65pt;
+    padding:0;
+    text-align:center;
+    color:#fff;
+}
+
+#services .card-img-top img {
+    -webkit-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+    width:100%;
+    height:auto;
+}
+
+#services p.card-text {
+    font-size:1.05rem !important;
+}
+
+.bluebg {
+    background: linear-gradient(#34368c,#42175a);
+    padding:80px 0;
+}
+
+.hundo {
+    width:100%;
+}
+
+#clients ul {
+    list-style:none;
+}
+
+#clients ul li {
+    line-height:2.0;
+}
+
+#portfolio .card {
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+#portfolio .card img {
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+
+#topper .col-4 {
+    font-size:14pt;
+    line-height:1.6;
+}
