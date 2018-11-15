@@ -129,7 +129,8 @@ main .container,main .container-fluid {
 }
 
 .container-fluid#services,.container-fluid#portfolio {
-    width:95%;
+    width:98%;
+    margin:0 auto;
 }
 
 .bluebg {
@@ -191,4 +192,17 @@ html {
 
 .dragscroll {
     cursor:grab !important;
+}
+
+.off {
+    background-color:#eaeeee;
+}
+
+#portfolio img {
+    margin:45px;
+}
+
+#clients img {
+    max-width:300px;
+    margin:45px;
 }
