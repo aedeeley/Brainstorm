@@ -129,7 +129,7 @@ main .container,main .container-fluid {
 }
 
 .container-fluid#services,.container-fluid#portfolio {
-    width:95%;
+    width:96%;
     margin:0 auto;
 }
 
