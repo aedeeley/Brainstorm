@@ -89,6 +89,10 @@ main .container,main .container-fluid {
     font-size:1.8rem;
 }
 
+#services {
+    padding-top:80px;
+}
+
 #services h3 {
     font-size:1.9rem;
 }
