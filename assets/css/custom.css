@@ -97,15 +97,16 @@ main .container,main .container-fluid {
     font-size:1.3rem;
 }
 
-#services .card {
+#services .card-group .card {
     -webkit-border-radius: 7px;
     border-radius: 7px;
     border:none;
     -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.07);
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.07);
     float:left;
-    width:20%;
+    width:100%;
 }
+
 
 #services .card-img-top {
     -webkit-border-radius: 7px 7px 0 0;
@@ -217,4 +218,19 @@ html {
 
 .dragtitle i {
     margin-left: 20px;
+}
+
+
+#services .card {
+    margin-bottom:35px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+
+   #services .card:nth-child(1) {
+       clear:both !important;
+
+   }
 }
