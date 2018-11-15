@@ -129,7 +129,7 @@ main .container,main .container-fluid {
 }
 
 .container-fluid#services,.container-fluid#portfolio {
-    width:98%;
+    width:95%;
     margin:0 auto;
 }
 
@@ -205,4 +205,16 @@ html {
 #clients img {
     max-width:300px;
     margin:45px;
+}
+
+.dragtitle {
+    margin:40px auto 0 auto;
+    max-width:500px;
+    text-align:center;
+    color:rgb(184, 184, 184);
+    font-size:14pt;
+}
+
+.dragtitle i {
+    margin-left: 20px;
 }
