@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="assets/css/custom.css">
 
     <title>Brainstorm Design Studio</title>
@@ -140,10 +141,10 @@
                   <div class="dragtitle">drag to scroll <i class="far fa-hand-point-right"></i></div>
                   <div class="row wow fadeInUp ml-5 mr-5">
                         <div class="scrolling-wrapper dragscroll">
-                            <div class="card-item"><img src="assets/img/portfolio/chick.jpg" alt="portfolio" /></div>
-                            <div class="card-item"><img src="assets/img/portfolio/shift.jpg" alt="portfolio" /></div>
-                            <div class="card-item"><img src="assets/img/portfolio/waterbar.jpg" alt="portfolio" /></div>
-                            <div class="card-item"><img src="assets/img/portfolio/ge.jpg" alt="portfolio" /></div>
+                            <div><img src="assets/img/portfolio/chick.jpg" alt="portfolio" /></div>
+                            <div><img src="assets/img/portfolio/shift.jpg" alt="portfolio" /></div>
+                            <div><img src="assets/img/portfolio/waterbar.jpg" alt="portfolio" /></div>
+                            <div><img src="assets/img/portfolio/ge.jpg" alt="portfolio" /></div>
                         </div>
                   </div>
                 </div>
@@ -163,13 +164,13 @@
                 <div class="dragtitle">drag to scroll <i class="far fa-hand-point-right"></i></div>
     
                 <div class="row wow fadeInUp ml-5 mr-5">
-                        <div class="scrolling-wrapper dragscroll">
-                            <div class="card-item"><img src="assets/img/clients/microsoft.png" alt="Microsoft" /></div>
-                            <div class="card-item"><img src="assets/img/clients/chick.png" alt="Microsoft" /></div>
-                            <div class="card-item"><img src="assets/img/clients/evos.png" alt="Microsoft" /></div>
-                            <div class="card-item"><img src="assets/img/clients/flhospital.png" alt="Microsoft" /></div>
-                            <div class="card-item"><img src="assets/img/clients/ge.png" alt="Microsoft" /></div>
-                            <div class="card-item"><img src="assets/img/clients/gnc.png" alt="Microsoft" /></div>
+                        <div class="scrolling-wrapper dragscroll2">
+                            <div><img src="assets/img/clients/microsoft.png" alt="Microsoft" /></div>
+                            <div><img src="assets/img/clients/chick.png" alt="Microsoft" /></div>
+                            <div><img src="assets/img/clients/evos.png" alt="Microsoft" /></div>
+                            <div><img src="assets/img/clients/flhospital.png" alt="Microsoft" /></div>
+                            <div><img src="assets/img/clients/ge.png" alt="Microsoft" /></div>
+                            <div><img src="assets/img/clients/gnc.png" alt="Microsoft" /></div>
                         </div>
                   </div>
     
@@ -323,8 +324,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
+
+        $('.dragscroll').slick({
+  dots: false,
+  infinite: true,
+  arrows: false,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
 
       $(document).ready(function(){
          $(".nav a").click(function (e) {
