@@ -101,7 +101,7 @@ main .container,main .container-fluid {
     font-size:1.3rem;
 }
 
-#services .card-group .card {
+#services .card {
     -webkit-border-radius: 7px;
     border-radius: 7px;
     border:none;
@@ -231,9 +231,10 @@ html {
 
 
 
-@media (max-width: 1200px) {
-  }
+@media (max-width: 800px) {
 
-  a,img {
-      borde:none !important;
-  }
+    .mobile {
+        display:none;
+    }
+
+}
