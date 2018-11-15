@@ -226,11 +226,10 @@ html {
 }
 
 
-@media only screen and (min-width: 1200px) {
 
+@media (max-width: 1200px) {
+  }
 
-   #services .card:nth-child(1) {
-       clear:both !important;
-
-   }
-}
+  a,img {
+      borde:none !important;
+  }
