@@ -190,7 +190,7 @@ html {
 
 
 
-.dragscroll {
+.dragscroll,.dragscroll2 {
     cursor:grab !important;
 }
 
